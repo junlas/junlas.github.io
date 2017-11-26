@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainIndexCoreUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1557c91d8af"/>
+	<e:Image left="0" top="0" right="0" bottom="0" source="web_bg_jpg" fillMode="repeat" locked="true" visible="false"/>
+	<e:Group top="0" left="0" right="0">
+		<e:Image source="tilte_01_jpg" x="321" y="-3" fillMode="repeat"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="justify" verticalAlign="contentJustify" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Rect left="0" top="120" right="0" height="50" fillColor="0xDDC3A2"/>
+	<e:Group top="120" left="0" right="0">
+		<e:ToggleButton id="e_btnIOS" x="459" y="57" label="推荐游戏" skinName="NavigateButtonUISkin">
+		</e:ToggleButton>
+		<e:ToggleButton id="e_btnH5" x="111" y="-2" label="小学生数学" skinName="NavigateButtonUISkin">
+		</e:ToggleButton>
+		<e:ToggleButton id="e_btnHot" x="111" y="-2" label="热门休闲游戏" skinName="NavigateButtonUISkin">
+		</e:ToggleButton>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" columnAlign="justifyUsingWidth" orientation="rows" horizontalAlign="center" verticalAlign="middle" paddingLeft="10" paddingRight="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="e_scrollerArea" left="0" top="176" bottom="25" right="250">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="热门排行:" fontFamily="方正粗圆_GBK" textColor="0x120404" right="117" top="179" height="30" italic="true"/>
+	<e:Group id="e_currRankingArea" right="0" bottom="25" top="217" width="250">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="Copyright © 2015-2017 1ko1.com 沪ICP备14046391号" height="27" horizontalCenter="0" bottom="4" textColor="0x000000" size="15" verticalAlign="bottom"/>
+	<ns1:FingerMovieGroup id="e_fingerMovieClip" width="200" height="200" horizontalCenter="0" verticalCenter="-234" namePath="finger" nameSource="finger"/>
+</e:Skin>

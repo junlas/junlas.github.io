@@ -1,0 +1,108 @@
+{
+	"alias": {
+		"app_store_down_png_png": "assets_custom/web/app_store_down_png.png",
+		"app_store_up_png_png": "assets_custom/web/app_store_up_png.png",
+		"bg_toggle_disabled_png": "assets_custom/web/bg_toggle_disabled.png",
+		"bg_toggle_normal_png": "assets_custom/web/bg_toggle_normal.png",
+		"bg_toggle_over_png": "assets_custom/web/bg_toggle_over.png",
+		"bg_toggle_selected_png": "assets_custom/web/bg_toggle_selected.png",
+		"star_png": "assets_custom/web/star.png",
+		"web_bg_jpg": "assets_custom/web/web_bg.jpg",
+		"logo_jpg": "assets_custom/web/logo.jpg",
+		"tilte_01_jpg": "assets_custom/title/tilte_01.jpg",
+		"gametype00_json": "config/gametype00.json",
+		"gametype01_json": "config/gametype01.json",
+		"gametype11_json": "config/gametype11.json",
+		"gametype10_json": "config/gametype10.json",
+		"scroller_roundthumb_png": "assets_custom/scroller/scroller_roundthumb.png",
+		"gametype20_json": "config/gametype20.json",
+		"gametype21_json": "config/gametype21.json",
+		"template_round66_png": "assets_custom/scroller/template_round66.png",
+		"template_round100_png": "assets_custom/scroller/template_round100.png",
+		"scroller_list_bar_png": "assets_custom/scroller/scroller_list_bar.png",
+		"finger_png": "assets_custom/movieclip/finger.png",
+		"finger_json": "assets_custom/movieclip/finger.json",
+		"4_jpg": "assets_custom/title/4.jpg",
+		"5_jpg": "assets_custom/title/5.jpg",
+		"2_jpg": "assets_custom/title/2.jpg",
+		"3_jpg": "assets_custom/title/3.jpg",
+		"1_jpg": "assets_custom/title/1.jpg"
+	},
+	"groups": {
+		"preload": [
+			"scroller_roundthumb_png",
+			"template_round66_png",
+			"template_round100_png",
+			"scroller_list_bar_png",
+			"finger_png",
+			"finger_json"
+		],
+		"web": [
+			"app_store_down_png_png",
+			"app_store_up_png_png",
+			"bg_toggle_disabled_png",
+			"bg_toggle_normal_png",
+			"bg_toggle_over_png",
+			"bg_toggle_selected_png",
+			"star_png",
+			"web_bg_jpg",
+			"logo_jpg"
+		],
+		"title": [
+			"tilte_01_jpg"
+		],
+		"config": [
+			"gametype00_json",
+			"gametype01_json",
+			"gametype11_json",
+			"gametype10_json",
+			"gametype20_json",
+			"gametype21_json"
+		]
+	},
+	"resources": {
+		"config.json": "config.json",
+		"default.res.json": "default.res.json",
+		"default.thm.json": "default.thm.json",
+		"title.jpg": "title.jpg",
+		"config": {
+			"gametype00.json": "config/gametype00.json",
+			"gametype01.json": "config/gametype01.json",
+			"gametype10.json": "config/gametype10.json",
+			"gametype11.json": "config/gametype11.json",
+			"gametype20.json": "config/gametype20.json",
+			"gametype21.json": "config/gametype21.json"
+		},
+		"assets_custom": {
+			"movieclip": {
+				"finger.json": "assets_custom/movieclip/finger.json",
+				"finger.png": "assets_custom/movieclip/finger.png"
+			},
+			"scroller": {
+				"scroller_list_bar.png": "assets_custom/scroller/scroller_list_bar.png",
+				"scroller_roundthumb.png": "assets_custom/scroller/scroller_roundthumb.png",
+				"template_round100.png": "assets_custom/scroller/template_round100.png",
+				"template_round66.png": "assets_custom/scroller/template_round66.png"
+			},
+			"title": {
+				"1.jpg": "assets_custom/title/1.jpg",
+				"2.jpg": "assets_custom/title/2.jpg",
+				"3.jpg": "assets_custom/title/3.jpg",
+				"4.jpg": "assets_custom/title/4.jpg",
+				"5.jpg": "assets_custom/title/5.jpg",
+				"tilte_01.jpg": "assets_custom/title/tilte_01.jpg"
+			},
+			"web": {
+				"app_store_down_png.png": "assets_custom/web/app_store_down_png.png",
+				"app_store_up_png.png": "assets_custom/web/app_store_up_png.png",
+				"bg_toggle_disabled.png": "assets_custom/web/bg_toggle_disabled.png",
+				"bg_toggle_normal.png": "assets_custom/web/bg_toggle_normal.png",
+				"bg_toggle_over.png": "assets_custom/web/bg_toggle_over.png",
+				"bg_toggle_selected.png": "assets_custom/web/bg_toggle_selected.png",
+				"logo.jpg": "assets_custom/web/logo.jpg",
+				"star.png": "assets_custom/web/star.png",
+				"web_bg.jpg": "assets_custom/web/web_bg.jpg"
+			}
+		}
+	}
+}

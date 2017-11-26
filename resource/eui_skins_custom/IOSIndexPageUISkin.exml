@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="IOSIndexPageUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="e_appTableScroller" scrollPolicyV="on" scrollPolicyH="off" left="0" top="0" bottom="0" right="0" skinName="ListScrollerBarUISkin">
+		<e:List id="e_appTableList" left="0" itemRendererSkinName="AppListLItemRendererUISkin">
+			<e:layout>
+				<e:TileLayout horizontalGap="20" horizontalAlign="center" columnAlign="justifyUsingWidth" rowAlign="top" paddingTop="15" verticalAlign="top" verticalGap="20" paddingRight="15" paddingLeft="15" paddingBottom="15"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

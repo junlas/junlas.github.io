@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="IOSRankingIndexPageUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller left="0" top="0" right="0" bottom="0" scrollPolicyH="off" scrollPolicyV="on" skinName="ListScrollerBarUISkin">
+		<e:List id="e_appTableList" top="0" left="0" right="0" bottom="30">
+			<e:layout>
+				<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,3 +1,176 @@
+<!DOCTYPE HTML>
 <html>
-	first commit
+
+<head>
+    <meta charset="utf-8">
+    <title>休闲游戏-小学数学培优</title>
+    <!-- 以下5个meta是为了阻止缓存 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- HTTP 1.1 -->
+    <meta http-equiv="pragma" content="no-cache">
+    <!-- HTTP 1.0 -->
+    <meta http-equiv="cache-control" content="no-cache">
+    <!-- Prevent caching at the proxy server -->
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="Keywords" content="学而思培优,每日数学,名师课堂,奥数,自认拼读,开心消消" />
+    <meta name="Description" content="欢迎来到1ko1.com Math的数学世界！Funny Math小学生数学是适合4-14岁儿童的数学学习应用程序。潜入1ko1.com Math的数学世界,让学习成为您的孩子最喜爱的活动！" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #FBFDFB;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    	#preloading{
+	    	z-index: 1000;
+	    	position: absolute;
+	    	text-align: center;
+	    	top: 40%;
+	    	left: 40%;
+	    	width: 20%;
+	    	height: 20%;
+    	}
+    	#BAIDU_SSP__wrapper_u1903769_0{
+	    	position:absolute;
+	    	left:0px;
+	    	bottom:0px;
+	    	width:100%;
+	    	text-align:center;
+    	}
+    	#BAIDU_SSP__wrapper_u1903769_0>iframe{
+    		display:inline-block;
+    	}
+    	#BAIDU_SSP__wrapper_u2945909_0{
+	    	position:absolute;
+	    	left:0px;
+	    	bottom:0px;
+	    	width:100%;
+	    	text-align:center;
+    	}
+    	#BAIDU_SSP__wrapper_u2945909_0>iframe{
+    		display:inline-block;
+    	}
+    </style>
+    
+    <div id="preloading"><img src="resource/preloading.gif" /></div>
+    <div id='wx_pic' style='margin:0 auto;display:none;'>
+    	<img src='resource/title.jpg' />
+    </div>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="fixedNarrow"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+<script>
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+             * "audioType": 0 //使用的音频类型，0:默认，2:web audio，3:audio
+             * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+             * "retina": //是否基于devicePixelRatio缩放画布
+             * }
+             **/
+            egret.runEgret({ renderMode: "canvas", audioType: 0, retina:true });
+
+            /**
+             * 隐藏小preloading
+             */
+            document.getElementById("preloading").style.display = "none";
+        });
+    });
+    xhr.send(null);
+</script>
+<div style="display:none;"><script src="https://s95.cnzz.com/z_stat.php?id=1261670236&web_id=1261670236" language="JavaScript"></script></div>
+    
+    <!--
+    <script type="text/javascript">
+    	/*20:2 创建于 2014-10-31*/
+    	var cpro_id;
+    	
+    	function IsPC() {
+	    	var userAgentInfo = navigator.userAgent.toString();
+	    	var Agents = ["Android", "iPhone",
+	    	"SymbianOS", "Windows Phone",
+	    	"iPad", "iPod"];
+	    	var flag = true;
+	    	for (var v = 0; v < Agents.length; v++) {
+		    	if (userAgentInfo.indexOf(Agents[v]) > 0) {
+		    		flag = false;
+		    		break;
+	    		}
+	    	}
+	    	return flag;
+	    }
+	    		
+    	var isPc = IsPC();
+    	if (isPc) {
+	    	cpro_id = "u1903769";
+	    	var script = document.createElement('script');
+	    	script.setAttribute('type', 'text/javascript');
+	    	script.setAttribute('src', 'http://cpro.baidustatic.com/cpro/ui/c.js');
+	    	document.getElementsByTagName('body')[0].appendChild(script);
+    	}else {
+	    	cpro_id = "u2945909";
+	    	var script = document.createElement('script');
+	    	script.setAttribute('type', 'text/javascript');
+	    	script.setAttribute('src', 'http://cpro.baidustatic.com/cpro/ui/cm.js');
+	    	document.getElementsByTagName('body')[0].appendChild(script); 
+    	}
+    </script>
+    -->
+</body>
+
 </html>

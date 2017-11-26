@@ -1,0 +1,68 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+    "eui.Panel": "resource/eui_skins/PanelSkin.exml",
+    "eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+    "eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/eui_skins_custom/AppListLItemRendererUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"AppListLItemRendererUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" states=\"up,down\" >\n\t<e:Group scaleX.down=\"0.95\" scaleY.down=\"0.95\" horizontalCenter.down=\"0\" horizontalCenter=\"0\" top=\"0\">\n\t\t<e:Group top=\"0\" horizontalCenter=\"0\">\n\t\t\t<e:Image id=\"e_imgItem\" height=\"200\" width=\"200\" top=\"0\" horizontalCenter=\"0\" source=\"logo_jpg\" smoothing=\"true\"/>\n\t\t\t<e:Image height=\"200\" width=\"200\" horizontalCenter=\"0\" top=\"0\" source=\"template_round100_png\" smoothing=\"true\"/>\n\t\t\t<e:layout>\n\t\t\t\t<e:BasicLayout/>\n\t\t\t</e:layout>\n\t\t</e:Group>\n\t\t<e:Label id=\"e_nameWordLabel\" text=\"孩子的能力教育\" width=\"200\" size=\"20\" textColor=\"0x000000\" fontFamily=\"黑体\" maxHeight=\"40\" horizontalCenter=\"0\" bottom=\"-14\"/>\n\t\t\n\t\t<e:layout>\n\t\t\t<e:VerticalLayout horizontalAlign=\"center\" verticalAlign=\"top\" gap=\"3\"/>\n\t\t</e:layout>\n\t</e:Group>\n\t<e:Label id=\"e_typeWordLabel\" text=\"教育生活\" size=\"12\" textColor=\"0x8D8D95\" width=\"200\" fontFamily=\"黑体\" maxHeight=\"26\" textColor.down=\"0x2741A0\" y=\"250\" scaleX=\"1\" scaleY=\"1\" horizontalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/AppRankingListItemRenderUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"AppRankingListItemRenderUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Group top=\"0\" left=\"0\" bottom=\"0\" right=\"0\">\n\t\t<e:Group x=\"3\">\n\t\t\t<e:Image id=\"e_firstIconImg\" height=\"88\" width=\"88\" x=\"0\" y=\"0\" source=\"logo_jpg\"/>\n\t\t\t<e:Image height=\"88\" width=\"88\" source=\"template_round66_png\"/>\n\t\t</e:Group>\n\t\t<e:Group x=\"100\" y=\"2\">\n\t\t\t<e:Label id=\"e_nameLabel\" text=\"应用的名字\" textColor=\"0x000000\" size=\"16\" fontFamily=\"微软雅黑\" scaleX=\"1\" scaleY=\"1\" bold=\"true\" anchorOffsetX=\"0\" width=\"118\"/>\n\t\t\t<e:Label id=\"e_typeLabel\" text=\"教育\" size=\"12\" width=\"118\" textColor=\"0x574848\" fontFamily=\"微软雅黑\" scaleX=\"1\" scaleY=\"1\"/>\n\t\t\t<e:layout>\n\t\t\t\t<e:VerticalLayout horizontalAlign=\"left\" verticalAlign=\"top\" gap=\"4\"/>\n\t\t\t</e:layout>\n\t\t</e:Group>\n\t\t<e:layout>\n\t\t\t<e:BasicLayout/>\n\t\t</e:layout>\n\t</e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/GameListItemRendererUISkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameListItemRendererUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" width=\"960\" height=\"640\">\n\t<e:Image id=\"e_img\" scaleX=\"1\" scaleY=\"1\" source=\"1_jpg\" width=\"100%\" x=\"0\" y=\"0\" height=\"100%\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/HListScrollBarUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"HListScrollBarUISkin\" minWidth=\"20\" minHeight=\"8\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image id=\"thumb\" height=\"8\" width=\"30\" verticalCenter=\"0\" source=\"scroller_roundthumb_png\" scale9Grid=\"3,2,12,12\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/VListScrollBarUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"VListScrollBarUISkin\" minWidth=\"8\" minHeight=\"20\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image id=\"thumb\" height=\"30\" width=\"8\" horizontalCenter=\"0\" scale9Grid=\"3,2,11,12\" source=\"scroller_list_bar_png\"/>\t\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/ListScrollerBarUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"ListScrollerBarUISkin\" minWidth=\"20\" minHeight=\"20\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:HScrollBar id=\"horizontalScrollBar\" width=\"100%\" bottom=\"0\" skinName=\"HListScrollBarUISkin\"/>\n\t<e:VScrollBar id=\"verticalScrollBar\" height=\"100%\" right=\"0\" skinName=\"VListScrollBarUISkin\"/>\t\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/IOSIndexPageUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"IOSIndexPageUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Scroller id=\"e_appTableScroller\" scrollPolicyV=\"on\" scrollPolicyH=\"off\" left=\"0\" top=\"0\" bottom=\"0\" right=\"0\" skinName=\"ListScrollerBarUISkin\">\n\t\t<e:List id=\"e_appTableList\" left=\"0\" itemRendererSkinName=\"AppListLItemRendererUISkin\">\n\t\t\t<e:layout>\n\t\t\t\t<e:TileLayout horizontalGap=\"20\" horizontalAlign=\"center\" columnAlign=\"justifyUsingWidth\" rowAlign=\"top\" paddingTop=\"15\" verticalAlign=\"top\" verticalGap=\"20\" paddingRight=\"15\" paddingLeft=\"15\" paddingBottom=\"15\"/>\n\t\t\t</e:layout>\n\t\t</e:List>\n\t</e:Scroller>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/IOSRankingIndexPageUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"IOSRankingIndexPageUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Scroller left=\"0\" top=\"0\" right=\"0\" bottom=\"0\" scrollPolicyH=\"off\" scrollPolicyV=\"on\" skinName=\"ListScrollerBarUISkin\">\n\t\t<e:List id=\"e_appTableList\" top=\"0\" left=\"0\" right=\"0\" bottom=\"30\">\n\t\t\t<e:layout>\n\t\t\t\t<e:VerticalLayout gap=\"10\"/>\n\t\t\t</e:layout>\n\t\t</e:List>\n\t</e:Scroller>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/NavigateButtonUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"NavigateButtonUISkin\" states=\"up,down,disabled\" xmlns:e=\"http://ns.egret.com/eui\" minHeight=\"50\" minWidth=\"100\">\r\n\t<e:Image width=\"100%\" height=\"100%\" alpha.disabled=\"0.5\"\r\n\t        \r\n\t         source=\"bg_toggle_normal_png\" scale9Grid=\"21,10,80,27\" source.down=\"bg_toggle_selected_png\" scale9Grid.down=\"19,10,80,27\" source.disabled=\"bg_toggle_selected_png\" scale9Grid.disabled=\"21,10,77,27\"/>\r\n\t<e:Label id=\"labelDisplay\" top=\"8\" bottom=\"8\" left=\"8\" right=\"8\"\r\n\t         size=\"16\"\r\n\t         verticalAlign=\"middle\" textAlign=\"center\" text=\"按钮模板应用\" fontFamily=\"微软雅黑\" textColor=\"0x93460C\" size.disabled=\"16\"/>\r\n\t<e:Image id=\"iconDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n</e:Skin>\r\n"
+    },
+    {
+      "path": "resource/eui_skins_custom/MainIndexCoreUISkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"MainIndexCoreUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:ns1=\"*\">\n\t<w:Config id=\"1557c91d8af\"/>\n\t<e:Image left=\"0\" top=\"0\" right=\"0\" bottom=\"0\" source=\"web_bg_jpg\" fillMode=\"repeat\" locked=\"true\" visible=\"false\"/>\n\t<e:Group top=\"0\" left=\"0\" right=\"0\">\n\t\t<e:Image source=\"tilte_01_jpg\" x=\"321\" y=\"-3\" fillMode=\"repeat\"/>\n\t\t<e:layout>\n\t\t\t<e:HorizontalLayout horizontalAlign=\"justify\" verticalAlign=\"contentJustify\" gap=\"0\"/>\n\t\t</e:layout>\n\t</e:Group>\n\t<e:Rect left=\"0\" top=\"120\" right=\"0\" height=\"50\" fillColor=\"0xDDC3A2\"/>\n\t<e:Group top=\"120\" left=\"0\" right=\"0\">\n\t\t<e:ToggleButton id=\"e_btnIOS\" x=\"459\" y=\"57\" label=\"推荐游戏\" skinName=\"NavigateButtonUISkin\">\n\t\t</e:ToggleButton>\n\t\t<e:ToggleButton id=\"e_btnH5\" x=\"111\" y=\"-2\" label=\"小学生数学\" skinName=\"NavigateButtonUISkin\">\n\t\t</e:ToggleButton>\n\t\t<e:ToggleButton id=\"e_btnHot\" x=\"111\" y=\"-2\" label=\"热门休闲游戏\" skinName=\"NavigateButtonUISkin\">\n\t\t</e:ToggleButton>\n\t\t<e:layout>\n\t\t\t<e:TileLayout requestedColumnCount=\"3\" columnAlign=\"justifyUsingWidth\" orientation=\"rows\" horizontalAlign=\"center\" verticalAlign=\"middle\" paddingLeft=\"10\" paddingRight=\"10\"/>\n\t\t</e:layout>\n\t</e:Group>\n\t<e:Group id=\"e_scrollerArea\" left=\"0\" top=\"176\" bottom=\"25\" right=\"250\">\n\t\t<e:layout>\n\t\t\t<e:BasicLayout/>\n\t\t</e:layout>\n\t</e:Group>\n\t<e:Label text=\"热门排行:\" fontFamily=\"方正粗圆_GBK\" textColor=\"0x120404\" right=\"117\" top=\"179\" height=\"30\" italic=\"true\"/>\n\t<e:Group id=\"e_currRankingArea\" right=\"0\" bottom=\"25\" top=\"217\" width=\"250\">\n\t\t<e:layout>\n\t\t\t<e:BasicLayout/>\n\t\t</e:layout>\n\t</e:Group>\n\t<e:Label text=\"Copyright © 2015-2017 1ko1.com 沪ICP备14046391号\" height=\"27\" horizontalCenter=\"0\" bottom=\"4\" textColor=\"0x000000\" size=\"15\" verticalAlign=\"bottom\"/>\n\t<ns1:FingerMovieGroup id=\"e_fingerMovieClip\" width=\"200\" height=\"200\" horizontalCenter=\"0\" verticalCenter=\"-234\" namePath=\"finger\" nameSource=\"finger\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/MainIndexGameUISkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"MainIndexGameUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:ns1=\"*\" width=\"900\" height=\"1040\">\n\t<e:Rect left=\"0\" top=\"0\" right=\"0\" height=\"50\" fillColor=\"0xffc16a\"/>\n\t<e:Group top=\"0\" left=\"0\" right=\"0\">\n\t\t<e:ToggleButton id=\"e_btnIOS0\" x=\"459\" y=\"57\" label=\"推荐游戏\" skinName=\"NavigateButtonUISkin\">\n\t\t</e:ToggleButton>\n\t\t<e:ToggleButton id=\"e_btnH0\" x=\"111\" y=\"-2\" label=\"更多游戏\" skinName=\"NavigateButtonUISkin\"/>\n\t\t<e:layout>\n\t\t\t\t<e:TileLayout requestedColumnCount=\"2\" columnAlign=\"justifyUsingWidth\" orientation=\"rows\" horizontalAlign=\"center\" verticalAlign=\"middle\" paddingLeft=\"10\" paddingRight=\"10\"/>\n\t\t</e:layout>\n\t</e:Group>\n\t<e:Group left=\"100\" top=\"64\" bottom=\"25\" right=\"100\">\n\t\t<e:layout>\n\t\t<e:BasicLayout/>\n\t\t</e:layout>\n\t\t<e:Scroller top=\"0\" bottom=\"0\" left=\"0\" right=\"0\" x=\"0\" y=\"0\" scaleX=\"1\" scaleY=\"1\" skinName=\"ListScrollerBarUISkin\" scrollPolicyH=\"off\">\n\t\t\t<e:List id=\"e_gameList\">\n\t\t\t\t<e:layout>\n\t\t\t\t\t<e:VerticalLayout gap=\"16\" horizontalAlign=\"justify\" verticalAlign=\"justify\"/>\n\t\t\t\t</e:layout>\n\t\t\t</e:List>\n\t\t</e:Scroller>\n\t</e:Group>\n\t<e:Label text=\"Copyright © 2015-2017 1ko1.com 沪ICP备14046391号\" height=\"27\" horizontalCenter=\"0\" bottom=\"4\" textColor=\"0x000000\" size=\"15\" verticalAlign=\"bottom\"/>\n\t<ns1:FingerMovieGroup id=\"e_fingerMovieClip\" width=\"200\" height=\"200\" horizontalCenter=\"0\" verticalCenter=\"-344\" namePath=\"finger\" nameSource=\"finger\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins_custom/UserScrollerSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"UserScrollerSkin\" minWidth=\"20\" minHeight=\"20\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:HScrollBar id=\"horizontalScrollBar\" width=\"100%\" bottom=\"0\"/>\n    <e:VScrollBar id=\"verticalScrollBar\" height=\"100%\" right=\"0\" skinName=\"LotteryVScrollBarSkin\"/>\n</e:Skin>"
+    }
+  ]
+}

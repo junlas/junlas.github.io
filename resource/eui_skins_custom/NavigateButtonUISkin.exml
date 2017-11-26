@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NavigateButtonUISkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" minHeight="50" minWidth="100">
+	<e:Image width="100%" height="100%" alpha.disabled="0.5"
+	        
+	         source="bg_toggle_normal_png" scale9Grid="21,10,80,27" source.down="bg_toggle_selected_png" scale9Grid.down="19,10,80,27" source.disabled="bg_toggle_selected_png" scale9Grid.disabled="21,10,77,27"/>
+	<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8"
+	         size="16"
+	         verticalAlign="middle" textAlign="center" text="按钮模板应用" fontFamily="微软雅黑" textColor="0x93460C" size.disabled="16"/>
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>
