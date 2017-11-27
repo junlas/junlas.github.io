@@ -9,11 +9,11 @@
 				<e:TileLayout requestedColumnCount="2" columnAlign="justifyUsingWidth" orientation="rows" horizontalAlign="center" verticalAlign="middle" paddingLeft="10" paddingRight="10"/>
 		</e:layout>
 	</e:Group>
-	<e:Group left="100" top="64" bottom="54" right="100" locked="true">
+	<e:Group top="64" bottom="54" left="0" right="0">
 		<e:layout>
 		<e:BasicLayout/>
 		</e:layout>
-		<e:Scroller top="0" bottom="0" left="0" right="0" x="0" y="0" scaleX="1" scaleY="1" skinName="ListScrollerBarUISkin" scrollPolicyH="off" locked="true">
+		<e:Scroller top="0" bottom="0" left="0" right="0" x="0" y="0" scaleX="1" scaleY="1" skinName="ListScrollerBarUISkin" scrollPolicyH="off">
 			<e:List id="e_gameList">
 				<e:layout>
 					<e:VerticalLayout gap="16" horizontalAlign="justify" verticalAlign="justify"/>
